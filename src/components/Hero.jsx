@@ -67,7 +67,7 @@ export default function Hero({ palette, onRandomize, onExport }) {
       >
         <button
           onClick={onExport}
-          className="group flex items-center gap-2 px-5 py-2.5 rounded-full 
+          className="text-nowrap group flex items-center gap-2 px-5 py-2.5 rounded-full 
                bg-(--primary) text-(--on-primary) font-semibold
                shadow-sm shadow-(--primary)/20
                hover:shadow-(--primary)/30 hover:scale-[1.02]
@@ -79,7 +79,7 @@ export default function Hero({ palette, onRandomize, onExport }) {
 
         <button
           onClick={onRandomize}
-          className="flex items-center gap-2 px-5 py-2.5 rounded-full
+          className="text-nowrap flex items-center gap-2 px-5 py-2.5 rounded-full
                border border-(--text)/15 text-(--text-muted)
                hover:border-(--primary)/40 hover:text-(--primary)
                active:scale-95 transition-all text-sm"
