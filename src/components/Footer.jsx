@@ -48,9 +48,18 @@ export default function Footer() {
               Connect
             </h4>
             <ul className="space-y-3 text-sm font-medium text-(--text)/80">
-              <FooterLink href="#">Twitter / X</FooterLink>
-              <FooterLink href="#">LinkedIn</FooterLink>
-              <FooterLink href="https://github.com">GitHub</FooterLink>
+              <FooterLink href="https://x.com/not_sagar1410" external>
+                Twitter / X
+              </FooterLink>
+              <FooterLink
+                href="https://www.linkedin.com/in/sagar-saini-9b45a52b2/"
+                external
+              >
+                LinkedIn
+              </FooterLink>
+              <FooterLink href="https://github.com/Sagar141005" external>
+                GitHub
+              </FooterLink>
             </ul>
           </div>
         </div>

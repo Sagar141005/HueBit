@@ -11,7 +11,7 @@ import ComponentShowcase from "./components/ComponentShowcase";
 import TrendingPalettes from "./components/TrendingPalettes";
 
 function App() {
-  const [baseColor, setBaseColor] = useState("#3b82f6");
+  const [baseColor, setBaseColor] = useState("#cbf078");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const { resolvedTheme } = useTheme();
