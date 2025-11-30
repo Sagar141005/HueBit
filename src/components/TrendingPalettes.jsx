@@ -30,7 +30,7 @@ export default function TrendingPalettes({ onSelect }) {
             Inspiration
           </h2>
           <p className="text-3xl md:text-4xl font-bold tracking-tight text-(--text) leading-tight">
-            Trending <span className="text-(--text-muted)">palettes.</span>
+            Trending palettes.
           </p>
         </div>
       </div>

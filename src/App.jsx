@@ -42,7 +42,7 @@ function App() {
   return (
     <div
       style={dynamicStyles}
-      className="min-h-screen bg-(--bg) text-(--text) transition-colors duration-500 font-sans selection:bg-(--primary) selection:text-white pb-16 md:pb-0"
+      className="min-h-screen font-display bg-(--bg) text-(--text) transition-colors duration-500 selection:bg-(--primary) selection:text-white pb-16 md:pb-0"
     >
       <Navbar />
 
