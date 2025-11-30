@@ -38,11 +38,11 @@ export default function Features() {
   return (
     <section className="py-12 max-w-7xl mx-auto">
       <div className="mb-16 max-w-2xl mx-auto text-center">
-        <h2 className="lg:text-lg text-sm font-bold uppercase tracking-wider text-(--text-muted) mb-3">
+        <h2 className="text-md font-medium uppercase tracking-wider text-(--text-muted) mb-2">
           Under the Hood
         </h2>
         <p className="text-3xl md:text-4xl font-bold tracking-tight text-(--text) leading-tight">
-          A color engine built on{" "}
+          A color engine built on &nbsp;
           <span className="text-(--text-muted)">real design systems.</span>
         </p>
       </div>
