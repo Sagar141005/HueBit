@@ -28,28 +28,17 @@ export default function Navbar() {
           </span>
         </motion.div>
 
-        <div className="flex items-center gap-1 md:gap-2">
-          <a
-            href="#"
-            className="hidden md:block px-3 py-2 text-sm font-medium text-(--text-muted) hover:text-(--text) hover:bg-(--text)/5 rounded-lg transition-all"
-          >
-            Methodology
-          </a>
-
-          <div className="hidden md:block w-px h-4 bg-(--text)/10 mx-1" />
-
-          <motion.a
-            href="https://github.com/Sagar141005/HueBit"
-            target="_blank"
-            rel="noreferrer"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="p-2 rounded-lg text-(--text-muted) hover:text-(--primary) hover:bg-(--primary)/10 transition-colors"
-            aria-label="GitHub Repository"
-          >
-            <Github size={20} />
-          </motion.a>
-        </div>
+        <motion.a
+          href="https://github.com/Sagar141005/HueBit"
+          target="_blank"
+          rel="noreferrer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="p-2 rounded-lg text-(--text-muted) hover:text-(--primary) hover:bg-(--primary)/10 transition-colors"
+          aria-label="GitHub Repository"
+        >
+          <Github size={20} />
+        </motion.a>
       </div>
     </motion.nav>
   );

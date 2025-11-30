@@ -174,7 +174,7 @@ export default {
           </div>
 
           {activeTab !== "tailwind" && (
-            <div className="flex items-center gap-2 bg-(--bg) p-1 rounded-lg border border-(--text)/10">
+            <div className="w-fit flex items-center gap-2 bg-(--bg) p-1 rounded-lg border border-(--text)/10">
               <FormatButton
                 active={format === "hex"}
                 onClick={() => setFormat("hex")}
