@@ -35,7 +35,7 @@ Export your complete color system in developer-ready formats:
 - **CSS Variables**  
 - **Tailwind Colors**  
 - **JSON Tokens**  
-- **Figma Tokens (W3C standard)**  
+- **Figma Tokens (W3C standard)**
 Plug directly into React, Tailwind, Figma, or any design system workflow.
 
 ### 🚀 Powered by Modern Color Science
@@ -43,7 +43,7 @@ HueBit uses a perceptual color space that ensures:
 - Smooth gradients  
 - Uniform steps of brightness & chroma  
 - Predictable color math  
-- Better accessibility out of the box  
+- Better accessibility out of the box
 This is how modern design systems (Tailwind, Material You, Radix UI) generate stable color scales.
 
 ### 🎛 Beautiful, Minimal UI
@@ -57,7 +57,7 @@ Optimized for clarity and productivity:
 HueBit works seamlessly on:
 - Desktop  
 - Tablet  
-- Mobile  
+- Mobile
 Perfect for quick palette tweaking on the go. 
 
 
@@ -66,7 +66,7 @@ Perfect for quick palette tweaking on the go.
 - Inconsistent color scales  
 - Hard-to-tune dark mode versions  
 - Manual WCAG contrast checking  
-- Manual export to Tailwind or Figma  
+- Manual export to Tailwind or Figma
 HueBit solves all of this by giving you a **production-ready color system generator:**  
 Perfect for:  
 - Design systems  
@@ -84,7 +84,7 @@ HueBit is built using:
 **Vite**  
 **Tailwind CSS**  
 **Color.js**  
-**Lucide Icons**  
+**Lucide Icons**
 Lightweight, fast, and deployable anywhere.  
 
 
@@ -94,7 +94,6 @@ git clone https://github.com/<your-username>/huebit.git
 cd huebit
 npm install
 npm run dev
-Visit your local dev server:
 ```
 **Visit:** http://localhost:5173  
 
