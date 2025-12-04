@@ -80,11 +80,11 @@ Perfect for:
 
 ## 🛠️ Tech Stack
 HueBit is built using:  
-**React**  
-**Vite**  
-**Tailwind CSS**  
-**Color.js**  
-**Lucide Icons**  
+- React  
+- Vite  
+- Tailwind CSS  
+- Color.js  
+- Lucide Icons  
 Lightweight, fast, and deployable anywhere.  
 
 
