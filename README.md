@@ -1,16 +1,121 @@
-# React + Vite
+# 🎨 HueBit — Semantic Color System Generator for Developers
+HueBit is a clean, powerful tool for generating **semantic, accessible, and adaptive** color palettes for modern web development and design systems.  
+Create consistent palettes, check WCAG contrast, and export tokens in multiple formats — all in one intuitive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:** https://huebit.sagarsaini.com  
+👉 **Author:** [Sagar Saini](https://sagarsaini.com)
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🎨 Semantic Color System
+HueBit generates a full semantic color scheme, including:  
+- primary, secondary, accent  
+- Neutral scales (50 → 950)  
+- Foreground/contrast variants for each token  
+- Built for real-world UI design.
 
-## React Compiler
+### 🌗 Light & Dark Mode — Automatically
+HueBit creates **theme-aware palettes.**  
+Every color comes with:  
+- Light mode version  
+- Dark mode version  
+- Balanced HEX/HSL-based contrast  
+- Smooth perceptual transitions  
+- No muddy, inconsistent dark-mode colors.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ♿ WCAG Contrast Checker
+Every semantic pair is automatically validated:  
+- Text ↔ Background  
+- Button states  
+- Alerts & semantic colors  
+- Surface layers (elevation)  
 
-## Expanding the ESLint configuration
+### ⚙️ One-Click Export Options
+Export your complete color system in developer-ready formats:  
+- **CSS Variables**  
+- **Tailwind Colors**  
+- **JSON Tokens**  
+- **Figma Tokens (W3C standard)**  
+Plug directly into React, Tailwind, Figma, or any design system workflow.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 Powered by Modern Color Science
+HueBit uses a perceptual color space that ensures:  
+- Smooth gradients  
+- Uniform steps of brightness & chroma  
+- Predictable color math  
+- Better accessibility out of the box  
+This is how modern design systems (Tailwind, Material You, Radix UI) generate stable color scales.
+
+### 🎛 Beautiful, Minimal UI
+Optimized for clarity and productivity:  
+- Controls grouped logically  
+- Instant preview of colors  
+- Live accessibility checks  
+- No clutter, no noise  
+
+### 📱 Fully Responsive
+HueBit works seamlessly on:
+- Desktop  
+- Tablet  
+- Mobile  
+Perfect for quick palette tweaking on the go. 
+
+
+## 🚀 Why HueBit?
+**Designers and developers** often struggle with:  
+- Inconsistent color scales  
+- Hard-to-tune dark mode versions  
+- Manual WCAG contrast checking  
+- Manual export to Tailwind or Figma  
+HueBit solves all of this by giving you a **production-ready color system generator:**  
+Perfect for:  
+- Design systems  
+- UI libraries  
+- React & Tailwind projects  
+- Web apps & dashboards  
+- Branding tokens  
+- Figma component libraries  
+- Stop hand-tuning colors — *let HueBit do the work.*
+
+
+## 🛠️ Tech Stack
+HueBit is built using:  
+- React  
+- Vite  
+- Tailwind CSS  
+- Color.js  
+- Lucide Icons  
+Lightweight, fast, and deployable anywhere.  
+
+
+## 📦 Getting Started (Local Development)
+```bash
+git clone https://github.com/<your-username>/huebit.git
+cd huebit
+npm install
+npm run dev
+```
+**Visit:** http://localhost:5173  
+
+
+## 🔒 Privacy
+HueBit processes everything client-side.  
+No logs, no storage, no external APIs — your color data never leaves your browser.  
+
+
+## 🤝 Contributing
+Contributions are welcome!  
+You can improve:  
+- Color math  
+- New export formats  
+- UI/UX refinements  
+- Accessibility tooling  
+1. Fork the repo  
+2. Create a feature branch  
+3. Submit a pull request  
+
+
+## ⭐ Support the Project
+If HueBit helped you build a better color system —  
+**please star the repository!**   
+It helps the project reach more designers and developers.  
